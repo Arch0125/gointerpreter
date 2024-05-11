@@ -2,7 +2,7 @@ package token
 
 type TokenType string
 
-type TokenStruct struct{
+type Token struct{
 	Type TokenType
 	Literal string
 }
@@ -21,6 +21,8 @@ const (
 
 	COMMA = ","
 	SEMICOLON = ";"
+	ASSIGN = "="
+	PLUS = "+"
 
 	FUNCTION = "FUNCTION"
 	LET = "LET"
